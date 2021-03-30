@@ -1,5 +1,5 @@
 ENV=env-`basename \`pwd\``
-python3 -m venv $ENV
+py -3.7 -m venv $ENV
 source $ENV/bin/activate
 
 pip install --upgrade pip
